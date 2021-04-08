@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-size: 25px 50px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #515A5A;
+    border: 2px ;
+    text-align: center;
+}
+
+.form-title {
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid#CB4335;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffffff;
+    
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #E74C3C;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #CB4335;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/* TITULO USER */
+.form-titleUSER {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+

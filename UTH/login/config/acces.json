@@ -1,0 +1,30 @@
+{
+    "sites":[
+        {
+            "site":"",
+            "access":"public",
+            "rol":""
+        },
+        {
+            "site":"signup",
+            "access":"public",
+            "rol":""
+        },
+        {
+            "site":"alumnos",
+            "access":"private",
+            "rol":"user"
+        },
+        {
+            "site":"admin",
+            "access":"private",
+            "role":"admin"
+        }
+    ],
+    "default-sites":{
+        "user": "alumnos",
+        "admin": "admin"
+    }
+        
+    
+}
